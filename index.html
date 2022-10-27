@@ -1,21 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="dist/main.js"></script>
     <title>Document</title>
-</head>
-<body>
-    Teljes név <input type="text" id="name"><output id="nameErr"></output><output></output><br>
-    Ország <input type="text" id="country"><output id="countryErr"></output><br>
-    Város <input type="text" id="city"><output id="cityErr"></output><br>
-    Utca, házszám <input type="text" id="address"><output id="addressErr"></output><br>
-    Irányítószám <input type="text" id="zip"><output id="zipErr"></output><br>
-    Bankkártya szám <input type="text" id="cardNum"><output id="cNameErr"></output><br>
-    Ellenőrző kód <input type="text" id="ccv"><output id="ccvErr"></output><br>
-    Bankkártyára írt név <input type="text" id="cardName"><output id="cNumErr"></output><br>
-    <button id="pay" type="submit">Fizetés</button>
-</body>
+  </head>
+  <body>
+    <div class="container justify-content-center">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Teljes név</span>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Teljes név"
+              id="name"
+            /><output id="nameErr"></output>
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Ország</span>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Ország"
+              id="country"
+            /><output id="countryErr"></output>
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Város</span>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Város"
+              id="city"
+            /><output id="cityErr"></output>
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Utca, házszám</span>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Utca, házszám"
+              id="address"
+            /><output id="addressErr"></output>
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Irányítószám</span>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Irányítószám"
+              id="zip"
+            /><output id="zipErr"></output>
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Bankkártya szám</span>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Bankkártya szám"
+              id="cardNum"
+            /><output id="cNumErr"></output>
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Ellenőrző kód</span>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Ellenőrző kód"
+              id="ccv"
+            /><output id="ccvErr"></output>
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"
+              >Bankkártyára írt név</span
+            >
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Bankkártyára írt név"
+              id="cardName"
+            /><output id="cNameErr"></output>
+          </div>
+      
+          <button id="pay" type="submit" class="btn btn-light my-auto">Fizetés</button>
+    </div>
+  </body>
 </html>
