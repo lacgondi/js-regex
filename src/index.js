@@ -4,12 +4,12 @@ require("bootstrap/dist/js/bootstrap.bundle.js");
 require("bootstrap/dist/css/bootstrap.css");
 let nameRegex = /[aA-zZ]{1,}/;
 let countryRegex = /[aA-zZ]{1,}/;
-let cityRegex = /[aA-zZ]{1,}/g;
-let addressRegex = /[aA-zZ 1-9]{1,}/g;
-let zipRegex = /[A-Z1-9]{1,}/g;
-let cardNumberRegex = /[1-9]{4,4}-[1-9]{4,4}-[1-9]{4,4}-[1-9]{4,4}/g;
-let ccvRegex = /[1-9]{3,3}/g;
-let cardNameRegex = / [aA-zZ ]{1,}/g;
+let cityRegex = /[aA-zZ]{1,}/;
+let addressRegex = /[aA-zZ 1-9]{1,}/;
+let zipRegex = /[A-Z1-9]{1,}/;
+let cardNumberRegex = /[1-9]{4,4}-[1-9]{4,4}-[1-9]{4,4}-[1-9]{4,4}/;
+let ccvRegex = /[1-9]{3,3}/;
+let cardNameRegex = / [aA-zZ ]{1,}/;
 document.addEventListener("DOMContentLoaded", () => {
     let name = document.getElementById("name");
     let country = document.getElementById("country");
