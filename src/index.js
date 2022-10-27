@@ -1,7 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-require("bootstrap/dist/js/bootstrap.bundle.js");
-require("bootstrap/dist/css/bootstrap.css");
+import 'bootstrap/dist/js/bootstrap.bundle.js';
+import 'bootstrap/dist/css/bootstrap.css';
 let nameRegex = /[aA-zZ]{1,}/;
 let countryRegex = /[aA-zZ]{1,}/;
 let cityRegex = /[aA-zZ]{1,}/;
